@@ -1,0 +1,13 @@
+# Python dependency
+
+module load python/3.6-anaconda-5.2
+pip install --upgrade pip --user
+pip install sklearn --user
+
+# Allow the shell scipt to be executed
+chmod a+rx estimate_slowdown.sh
+
+# In estimate_slowdown.sh, change the path to serial
+# By default, it is ~/hw2-1/build/serial
+
+
